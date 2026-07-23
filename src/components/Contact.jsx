@@ -30,10 +30,10 @@ const sendEmail = (e) => {
 
   emailjs
     .sendForm(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
+      "service_s4ud654",
+      "template_ytq62al",
       form.current,
-      "YOUR_PUBLIC_KEY"
+      "1pf-J0VKeODV4vcGZ"
     )
     .then(
       () => {
